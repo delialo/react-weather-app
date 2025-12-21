@@ -14,10 +14,10 @@ export default function App() {
         >
           GitHub
         </a>
-        and hosted on
+        {/* and hosted on
         <a href="#" target="_blank" rel="noreferrer">
           Netlify
-        </a>
+        </a> */}
         .
       </footer>
     </div>
