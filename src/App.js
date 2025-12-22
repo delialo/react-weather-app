@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container mt-3 mb-3">
-        <h1>Weather App</h1>
         <Weather />
         <footer>
           This project is open sourced on{" "}
