@@ -11,6 +11,7 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -25,12 +26,13 @@ export default function Weather() {
         <li>broken clouds</li>
       </ul>
       <div className="row">
-        <div className="col-6">
+        <div className="col-6 d-flex align-items-center">
           <img
             src="https://cdn.search.brave.com/serp/v3/_app/immutable/assets/04d.D1RoiTJ0.svg"
             alt="Weather Icon"
           />
-          3°C
+          <span className="temperature">3</span>
+          <span className="unit ">°C | F</span>
         </div>
         <div className="col-6">
           <ul>
