@@ -7,3 +7,7 @@
   font-size: 12px;
   margin-top: 10px;
 }
+.App a {
+  color: coral;
+  text-decoration: none;
+}
