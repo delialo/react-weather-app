@@ -13,6 +13,11 @@
   font-size: 32px;
   line-height: 29px;
   color: coral;
+  text-shadow:
+    -1px 0 rgb(93, 83, 130),
+    0 1px rgb(93, 83, 130),
+    1px 0 rgb(93, 83, 130),
+    0 -1px rgb(93, 83, 130);
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -27,6 +32,7 @@
   font-family: arial;
   font-weight: 100;
   color: rgb(132, 131, 131);
+
   padding: 0;
 }
 .Weather img {
