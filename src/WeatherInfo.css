@@ -5,3 +5,8 @@ div {
 li {
   color: rgb(142, 101, 86) !important;
 }
+@media (max-width: 575px) {
+  li {
+    color: rgb(50, 39, 35) !important;
+  }
+}
